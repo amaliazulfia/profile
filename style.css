@@ -1,0 +1,93 @@
+body {
+    background-color: #C0B7B1;
+    font-family: 'Source Code Pro', monospace;
+    font-size: small;
+    line-height: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #9E2A2B;
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
+    line-height: 50px;
+}
+
+h2 {
+    color: #2A2B2A;
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
+    line-height: 50px;
+}
+
+h3 {
+    color: #2A2B2A;
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
+    line-height: 50px;
+}
+
+a {
+    color: #313D5A;
+    font-family: 'Source Code Pro', monospace;
+    font-size: small;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #9E2A2B;
+    font-family: 'Source Code Pro', monospace;
+    font-size: small;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0; 
+}
+ul li {
+    display: inline;
+    text-align: center;
+    margin: none;
+    
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    
+}
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+}
+
+
+.card {
+    background: #C69C72;                         /* White background */
+    padding: 30px;  
+    margin: 10px;                        /* Internal space */
+    border-radius: 5px;   
+    border: 1px solid #B6ACA4;                   /* Small radius */
+    box-shadow: 0 10px 30px  rgba(0,0,0,.1); 
+}
+
+.img-circle {
+    border-radius: 50%;
+}
